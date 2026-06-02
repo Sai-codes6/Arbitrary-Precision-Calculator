@@ -1,0 +1,60 @@
+# ---- Compiled object files & intermediates ----
+*.o
+*.obj
+*.lo
+*.slo
+*.ko
+
+# ---- Final binaries / executables ----
+apc
+a.out
+*.out
+*.exe
+*.app
+*.elf
+
+# ---- Static & shared libraries ----
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+
+# ---- Debug & profiling artifacts ----
+*.dSYM/
+*.su
+*.idb
+*.pdb
+*.gch
+*.pch
+core
+core.*
+vgcore.*
+*.gcno
+*.gcda
+*.gcov
+callgrind.out.*
+massif.out.*
+perf.data*
+
+# ---- Editor / IDE clutter ----
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+.cproject
+.project
+.settings/
+
+# ---- OS-generated files ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- Windows Zone.Identifier streams (from downloaded zips) ----
+*Zone.Identifier
+*:Zone.Identifier
